@@ -1,0 +1,60 @@
+#geral {
+    font-family: Helvetica;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url(https://images2.imgbox.com/38/f4/nDZSmZa4_o.png);
+    background-position: center;
+}
+
+#header {
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#conteudo {
+    width: 1200px;
+    height: 580px;
+}
+
+#left {
+    text-align: center;
+    float: left;
+    width: 600px;
+    height: 200px;
+}
+
+#right {
+    text-align: center;
+    float: left;
+    width: 596px;
+    height: 200px;
+}
+
+#joystick button {
+    display: inline;
+    width: 120px;
+    height: 25px;
+}
+
+button {
+    font-size: large;
+}
+
+#tela {
+    position: absolute;
+    top: 340px;
+    left: 600px;
+    right: 600px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border: 5px solid;
+    border-image: linear-gradient(150deg,green,yellow) 1;
+    background-color: rgb(244, 240, 240);
+}
